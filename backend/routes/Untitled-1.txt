@@ -1,0 +1,17 @@
+Base URL:
+
+https://localhost:8000/api
+
+All routes require Authorization: Bearer <token> header except register and login.
+
+1.Authentication
+   
+   Register
+	POST /register
+	Body:
+		{
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "password_confirmation": "password123"
+      }
